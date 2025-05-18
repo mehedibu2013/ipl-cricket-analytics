@@ -9,7 +9,6 @@ From raw CSV ingestion to Snowflake transformations and visualizing insights via
 
 Here's how your project should look before pushing to GitHub:
 
-```
 cricket-analytics/
 │
 ├── data/
@@ -22,7 +21,6 @@ cricket-analytics/
 ├── dashboard.py              # Streamlit dashboard for visualization
 ├── README.md                 # 👋 This file
 └── requirements.txt          # Python dependencies
-```
 
 ---
 
