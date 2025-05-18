@@ -25,15 +25,10 @@ cricket-analytics/
 ---
 
 ## 🧱 Project Architecture
-
-```
 CSV Files → Ingestion (Python) → Snowflake (RAW Schema)
          → Transformation (SQL) → Snowflake (STAGING Schema)
          → Visualization → Streamlit Dashboard
-```
-
 ---
-
 ## 🛠️ Features
 
 - ✅ Ingests `matches.csv` and `deliveries.csv` into Snowflake
@@ -123,13 +118,10 @@ Open the local URL shown in the terminal (usually: http://localhost:8501)
 ---
 
 ## 📝 Summary
-
- A complete, well-documented, and GitHub-ready project structure that includes:
-
+A complete, well-documented, and GitHub-ready project structure that includes:
 - Ingestion
 - Transformation
 - Visualization
 - Configurable credentials
 - Readme with instructions
-
 ---
