@@ -1,3 +1,4 @@
+```markdown
 # 🏏 End-to-End Cricket Analytics Pipeline Using Snowflake
 
 This project demonstrates an **end-to-end data engineering pipeline** using **Snowflake** and **Python**, analyzing real-world **IPL cricket match data**.
