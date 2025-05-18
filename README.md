@@ -1,14 +1,12 @@
-```markdown
 # 🏏 End-to-End Cricket Analytics Pipeline Using Snowflake
 
 This project demonstrates an **end-to-end data engineering pipeline** using **Snowflake** and **Python**, analyzing real-world **IPL cricket match data**.
 
 From raw CSV ingestion to Snowflake transformations and visualizing insights via **Streamlit**, this repo is perfect for learning Snowflake, data pipelines, and analytics dashboards.
----
+
 ## 📁 Folder Structure
 
-Here's how your project should look before pushing to GitHub:
-
+```
 cricket-analytics/
 │
 ├── data/
@@ -21,14 +19,16 @@ cricket-analytics/
 ├── dashboard.py              # Streamlit dashboard for visualization
 ├── README.md                 # 👋 This file
 └── requirements.txt          # Python dependencies
-
----
+```
 
 ## 🧱 Project Architecture
+
+```
 CSV Files → Ingestion (Python) → Snowflake (RAW Schema)
          → Transformation (SQL) → Snowflake (STAGING Schema)
          → Visualization → Streamlit Dashboard
----
+```
+
 ## 🛠️ Features
 
 - ✅ Ingests `matches.csv` and `deliveries.csv` into Snowflake
@@ -38,8 +38,6 @@ CSV Files → Ingestion (Python) → Snowflake (RAW Schema)
 - ✅ Visualizes results with **Streamlit**
 - ✅ Fully modular & ready to extend
 
----
-
 ## 📦 Prerequisites
 
 1. **Snowflake Account**: Free trial works fine.
@@ -48,8 +46,6 @@ CSV Files → Ingestion (Python) → Snowflake (RAW Schema)
 4. **IPL Dataset**:
    - `matches.csv`: [Kaggle Link](https://www.kaggle.com/nowke9/ipldata/data)
    - `deliveries.csv`: [Kaggle Link](https://www.kaggle.com/nowke9/ipldata/data)
-
----
 
 ## 🚀 How to Run
 
@@ -75,8 +71,6 @@ SNOWFLAKE_CONFIG = {
 }
 ```
 
----
-
 ### 3. Ingest Data into Snowflake
 
 ```bash
@@ -88,16 +82,12 @@ This:
 - Uploads CSV files
 - Loads data into Snowflake tables
 
----
-
 ### 4. Run Transformations in Snowflake
 
 Run the SQL in `transform_data.sql` using:
 - Snowflake UI (Snowsight), or
 - SnowSQL CLI, or
 - Python script (`run_sql.py` if added)
-
----
 
 ### 5. Launch the Dashboard
 
@@ -107,21 +97,17 @@ streamlit run dashboard.py
 
 Open the local URL shown in the terminal (usually: http://localhost:8501)
 
----
-
 ## 📊 What You'll See
 
 - 📊 Bar chart of **Top 10 Winning Teams**
 - 📈 Line chart of **Top Batsmen by Batting Average**
 - 📋 Table views for both charts
 
----
-
 ## 📝 Summary
+
 A complete, well-documented, and GitHub-ready project structure that includes:
 - Ingestion
 - Transformation
 - Visualization
 - Configurable credentials
 - Readme with instructions
----
