@@ -110,4 +110,4 @@ A complete, well-documented, and GitHub-ready project structure that includes:
 - Transformation
 - Visualization
 - Configurable credentials
-- Readme with instructions
+- Readme with instructions.
